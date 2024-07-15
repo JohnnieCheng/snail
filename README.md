@@ -84,7 +84,7 @@ java -server -Xms128m -Xmx256m -jar snail.javafx-{version}.jar
 final Snail snail = SnailBuilder.newBuilder()
     .enableAllProtocol()
     .buildSync();
-snail.download("https://www.acgist.com");
+snail.download("https://em-h.phncdn.com/hls/videos/202311/28/443800431/1080P_4000K_443800431.mp4/index-v1-a1.m3u8?validfrom=1721022449&validto=1721029649&ipa=67.21.82.252&hdl=-1&hash=DbRjAV4f9EXAtCtDLrqm22iM3bk%3D");
 snail.lockDownload();
 ```
 
